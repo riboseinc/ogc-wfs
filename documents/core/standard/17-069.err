@@ -1,0 +1,747 @@
+/__w/ogc-wfs/ogc-wfs/site/documents/core/standard/17-069.err errors
+
+
+== Document Attributes
+
+(): 'Interface' is not a permitted subtype of Standard: reverting to 'implementation'
+(): candidate is not a recognised status
+(): Version required for standard
+
+
+== Anchors
+
+(XML Line 000339): normalised identifier in <term id="term-feature-collection_-collection"/> from term-feature-collection;-collection
+	<term id="term-feature-collection_-collection"><preferred>feature collection; collection</preferred><definition><p id="_aa2f0e78-9982-4105-a5fc-e6092a392eba">a set of <strong>features</strong> from a <strong>dataset</strong></p></definition>
+	<termnote id="_3562c206-005a-49ad-9508-d45d5bf2e03d">
+	<p id="_0a38b9bd-6d5c-4bc2-a236-11715e53200d">In this specification, ‘collection’ is used as a synonym for ‘feature
+	collection’. This is done to make, for example, URI path expressions shorter
+	and easier to understand for those that are not geo-experts.</p>
+
+
+== Metanorma XML Style Warning
+
+(XML Line 000216): Table should have title
+	<table id="_71a32332-0dcb-4e1f-beec-7e3f9493c375">
+	<thead>
+	<tr>
+	<th valign="top" align="left">
+	<strong>Name</strong>
+(XML Line 000345): Hanging paragraph in clause
+	<clause id="_conventions" obligation="normative"><title>Conventions</title><clause id="_open_issues" obligation="normative"><title>Open issues</title><p id="_66c3ea32-859c-42a2-8bc6-266c3f708c04">This is a DRAFT version of WFS 3.0, Part 1. This draft is not complete and there are open issues that
+	are still under discussion. These discussion topics are identified as “CAUTION” annotations with
+	a link to the issue on GitHub and a brief summary of the issue.</p>
+	<p id="_5804be1a-7b01-463b-b0ce-75a6a3de0635">The current expectation is to have a stable version of the candidate WFS 3.0,
+	Part 1, standard in 2019. Criteria to move the candidate standard to the next
+(XML Line 000383): Hanging paragraph in clause
+	<clause id="_api_definition" obligation="normative"><title>API definition</title><clause id="_general_remarks" obligation="normative"><title>General remarks</title><p id="_9d59bd65-b372-4c75-885a-3c438aab4831">Good documentation is essential for every API so that developers can more easily
+	learn how to use the API. In the best case, documentation will be available in
+	HTML and in a format that can be processed by software to connect to the API.</p>
+	<p id="_fe1a8065-47ab-4039-9cb9-07625473e3d7">This standard specifies requirements and recommendations for APIs that
+	share feature data and that want to follow a standard way of doing so.
+(XML Line 000456): Hanging paragraph in clause
+	<clause id="overview" obligation="normative"><title>Overview</title><clause id="_evolution_from_previous_versions_of_wfs" obligation="normative"><title>Evolution from previous versions of WFS</title><p id="_a5c7a9cd-4e66-4509-b21f-c4cfefa65a69">The previous versions of the WFS standard used a Remote-Procedure-Call-over-HTTP architectural style using XML for any payloads.
+	When the WFS standard was originally designed in the late 1990s and early 2000s this was the state-of-the-art. The WFS 3.0 version specifies a modernized service, that follows the current Web architecture and in particular the <eref type="inline" bibitemid="SDWBP" citeas="SDWBP">W3C/OGC best practices for sharing Spatial Data on the Web</eref> as well as the <eref type="inline" bibitemid="DWBP" citeas="DWBP">W3C best practices for sharing Data on the Web</eref>.</p>
+	<p id="_8f59376e-577b-4445-9f5f-fa7ab8ebf9e3">Beside the general alignment with the architecture of the Web (e.g., consistency with HTTP/HTTPS, hypermedia controls), another goal for this version of the WFS standard is modularization. This goal has several facets:</p>
+	<ul id="_19864842-d65f-4588-ae6a-40459041322f">
+	<li>
+(XML Line 000551): Hanging paragraph in clause
+	<clause id="_requirement_class_core" obligation="normative"><title>Requirement Class “Core”</title><clause id="core-overview" obligation="normative"><title>Overview</title><table id="rc_core" width="90%">
+	<colgroup>
+	<col width="20%"/>
+	<col width="80%"/>
+	</colgroup>
+(XML Line 000551): Table should have title
+	<table id="rc_core" width="90%">
+	<colgroup>
+	<col width="20%"/>
+	<col width="80%"/>
+	</colgroup>
+(XML Line 000675): Hanging paragraph in clause
+	<clause id="_api_landing_page" obligation="normative"><title>API landing page</title><clause id="_operation" obligation="normative">
+	<title>Operation</title>
+	<table id="_6b1aeaf8-8fd5-4ca9-a5ba-d9656750836f" width="90%">
+	<colgroup>
+	<col width="25%"/>
+(XML Line 000677): Table should have title
+	<table id="_6b1aeaf8-8fd5-4ca9-a5ba-d9656750836f" width="90%">
+	<colgroup>
+	<col width="25%"/>
+	<col width="75%"/>
+	</colgroup>
+(XML Line 000693): Table should have title
+	<table id="_cd52473a-f173-425d-8ed5-d91d23279614" width="90%">
+	<colgroup>
+	<col width="25%"/>
+	<col width="75%"/>
+	</colgroup>
+(XML Line 000752): Hanging paragraph in clause
+	<clause id="_api_definition_2" obligation="normative"><title>API definition</title><clause id="_operation_2" obligation="normative"><title>Operation</title><p id="_3cb65039-8b7b-4914-8ad0-cf20486d0428">Every WFS provides an API definition that describes the capabilities
+	of the server and which can be used by developers to understand the API,
+	by software clients to connect to the server, or
+	by development tools to support the implementation of servers and clients.</p>
+	<table id="_e6d09c80-6a8b-4cb3-90b2-4fd53c889452" width="90%">
+(XML Line 000756): Table should have title
+	<table id="_e6d09c80-6a8b-4cb3-90b2-4fd53c889452" width="90%">
+	<colgroup>
+	<col width="25%"/>
+	<col width="75%"/>
+	</colgroup>
+(XML Line 000771): Table should have title
+	<table id="_a1ebf4e3-5b07-4ec7-aa17-82ab09fae331" width="90%">
+	<colgroup>
+	<col width="25%"/>
+	<col width="75%"/>
+	</colgroup>
+(XML Line 000788): Table should have title
+	<table id="_158c3593-44c6-4fef-80a5-92a51a4f9c00" width="90%">
+	<colgroup>
+	<col width="25%"/>
+	<col width="75%"/>
+	</colgroup>
+(XML Line 000817): Hanging paragraph in clause
+	<clause id="_declaration_of_conformance_classes" obligation="normative"><title>Declaration of conformance classes</title><clause id="_operation_3" obligation="normative"><title>Operation</title><p id="_7e118e6b-bc60-41b5-ab86-326f19405231">To support “generic” clients for accessing Web Feature Services in general — and
+	not “just” a specific API / server, the server has to declare the
+	requirements classes it implements and conforms to.</p>
+	<table id="_f4e8a302-4f56-4e7f-8686-d7573c2fe354" width="90%">
+	<colgroup>
+(XML Line 000820): Table should have title
+	<table id="_f4e8a302-4f56-4e7f-8686-d7573c2fe354" width="90%">
+	<colgroup>
+	<col width="25%"/>
+	<col width="75%"/>
+	</colgroup>
+(XML Line 000835): Table should have title
+	<table id="_be21c382-98df-408b-a4bd-204513a7030d" width="90%">
+	<colgroup>
+	<col width="25%"/>
+	<col width="75%"/>
+	</colgroup>
+(XML Line 000877): Hanging paragraph in clause
+	<clause id="_http_1_1" obligation="normative"><title>HTTP 1.1</title><table id="_38e465bb-8162-4993-8ab2-563d7eaa875b" width="90%">
+	<colgroup>
+	<col width="25%"/>
+	<col width="75%"/>
+	</colgroup>
+(XML Line 000877): Table should have title
+	<table id="_38e465bb-8162-4993-8ab2-563d7eaa875b" width="90%">
+	<colgroup>
+	<col width="25%"/>
+	<col width="75%"/>
+	</colgroup>
+(XML Line 000976): Table should have title
+	<table id="_fd2b9c11-4023-4017-ac06-60bf1f405095" width="90%">
+	<colgroup>
+	<col width="25%"/>
+	<col width="75%"/>
+	</colgroup>
+(XML Line 000992): Table should have title
+	<table id="rec_etag" width="90%">
+	<colgroup>
+	<col width="25%"/>
+	<col width="75%"/>
+	</colgroup>
+(XML Line 001015): Table should have title
+	<table id="_2b77cb77-2147-42a1-b9a3-4e02cda92a27" width="90%">
+	<colgroup>
+	<col width="25%"/>
+	<col width="75%"/>
+	</colgroup>
+(XML Line 001045): Table should have title
+	<table id="rec_html" width="90%">
+	<colgroup>
+	<col width="25%"/>
+	<col width="75%"/>
+	</colgroup>
+(XML Line 001059): Table should have title
+	<table id="rec_geojson" width="90%">
+	<colgroup>
+	<col width="25%"/>
+	<col width="75%"/>
+	</colgroup>
+(XML Line 001105): Table should have title
+	<table id="_21bdaa91-6ed1-4350-9578-af65df0d48ba" width="90%">
+	<colgroup>
+	<col width="25%"/>
+	<col width="75%"/>
+	</colgroup>
+(XML Line 001131): Table should have title
+	<table id="_e2354cdd-1452-4bfa-9764-4c4078b48ff7" width="90%">
+	<colgroup>
+	<col width="25%"/>
+	<col width="75%"/>
+	</colgroup>
+(XML Line 001149): Hanging paragraph in clause
+	<clause id="_feature_collections_metadata" obligation="normative"><title>Feature collections metadata</title><clause id="_operation_4" obligation="normative">
+	<title>Operation</title>
+	<table id="_3869115d-063b-4305-99ce-7bea7ed8240c" width="90%">
+	<colgroup>
+	<col width="25%"/>
+(XML Line 001151): Table should have title
+	<table id="_3869115d-063b-4305-99ce-7bea7ed8240c" width="90%">
+	<colgroup>
+	<col width="25%"/>
+	<col width="75%"/>
+	</colgroup>
+(XML Line 001167): Table should have title
+	<table id="_7ca7171a-9a18-4bff-a857-e888db2693da" width="90%">
+	<colgroup>
+	<col width="25%"/>
+	<col width="75%"/>
+	</colgroup>
+(XML Line 001198): Table should have title
+	<table id="_f2ad2bb2-2353-4dfa-82fc-7da9cb58d537" width="90%">
+	<colgroup>
+	<col width="25%"/>
+	<col width="75%"/>
+	</colgroup>
+(XML Line 001224): Table should have title
+	<table id="fc_md_descriptions" width="90%">
+	<colgroup>
+	<col width="25%"/>
+	<col width="75%"/>
+	</colgroup>
+(XML Line 001256): Table should have title
+	<table id="_46673c9f-4a3d-44f7-ba20-97a4a85c18f5" width="90%">
+	<colgroup>
+	<col width="25%"/>
+	<col width="75%"/>
+	</colgroup>
+(XML Line 001272): Table should have title
+	<table id="_66ee916f-9a55-4a5c-a2d2-7da2db3a951c" width="90%">
+	<colgroup>
+	<col width="25%"/>
+	<col width="75%"/>
+	</colgroup>
+(XML Line 001297): Table should have title
+	<table id="_ee8c40d7-b9c3-458f-8c33-c374ccc1ec27" width="90%">
+	<colgroup>
+	<col width="25%"/>
+	<col width="75%"/>
+	</colgroup>
+(XML Line 001386): Hanging paragraph in clause
+	<clause id="_feature_collection_metadata" obligation="normative"><title>Feature collection metadata</title><clause id="_operation_5" obligation="normative">
+	<title>Operation</title>
+	<table id="_d1cff583-f61f-4207-8ac6-c3aa0f5eeecb" width="90%">
+	<colgroup>
+	<col width="25%"/>
+(XML Line 001388): Table should have title
+	<table id="_d1cff583-f61f-4207-8ac6-c3aa0f5eeecb" width="90%">
+	<colgroup>
+	<col width="25%"/>
+	<col width="75%"/>
+	</colgroup>
+(XML Line 001408): Table should have title
+	<table id="_72d02f93-6aa8-4813-bfcc-09dc250feed6" width="90%">
+	<colgroup>
+	<col width="25%"/>
+	<col width="75%"/>
+	</colgroup>
+(XML Line 001430): Hanging paragraph in clause
+	<clause id="_feature_collections" obligation="normative"><title>Feature collections</title><clause id="_operation_6" obligation="normative">
+	<title>Operation</title>
+	<table id="_038db0c6-30a6-4fc0-ab21-327785c5e42f" width="90%">
+	<colgroup>
+	<col width="25%"/>
+(XML Line 001432): Table should have title
+	<table id="_038db0c6-30a6-4fc0-ab21-327785c5e42f" width="90%">
+	<colgroup>
+	<col width="25%"/>
+	<col width="75%"/>
+	</colgroup>
+(XML Line 001452): Table should have title
+	<table id="_5095ceba-004f-4af4-9969-96e37c54d304" width="90%">
+	<colgroup>
+	<col width="25%"/>
+	<col width="75%"/>
+	</colgroup>
+(XML Line 001479): Table should have title
+	<table id="_a50d5b26-e2b5-4af4-8546-bb3f99b73413" width="90%">
+	<colgroup>
+	<col width="25%"/>
+	<col width="75%"/>
+	</colgroup>
+(XML Line 001493): Table should have title
+	<table id="_8e868a8b-ab8e-4117-9fbb-e726298e4846" width="90%">
+	<colgroup>
+	<col width="25%"/>
+	<col width="75%"/>
+	</colgroup>
+(XML Line 001514): Table should have title
+	<table id="_f06d19c3-6772-478b-a156-eccd385cefde" width="90%">
+	<colgroup>
+	<col width="25%"/>
+	<col width="75%"/>
+	</colgroup>
+(XML Line 001530): Table should have title
+	<table id="_198c275e-ff86-466a-8b7a-3cf1b47c3ee4" width="90%">
+	<colgroup>
+	<col width="25%"/>
+	<col width="75%"/>
+	</colgroup>
+(XML Line 001558): Table should have title
+	<table id="_2e15f480-3e75-4965-96e2-13d1a4c9e743" width="90%">
+	<colgroup>
+	<col width="25%"/>
+	<col width="75%"/>
+	</colgroup>
+(XML Line 001618): Table should have title
+	<table id="_833a0226-d610-407f-8443-a97f7ff844b5" width="90%">
+	<colgroup>
+	<col width="25%"/>
+	<col width="75%"/>
+	</colgroup>
+(XML Line 001642): Table should have title
+	<table id="_774071c9-457e-4dbe-bf73-30d4f1ef451e" width="90%">
+	<colgroup>
+	<col width="25%"/>
+	<col width="75%"/>
+	</colgroup>
+(XML Line 001694): Table should have title
+	<table id="_5eb3cb9d-dedd-4acf-bb52-b54a99ab0f64" width="90%">
+	<colgroup>
+	<col width="25%"/>
+	<col width="75%"/>
+	</colgroup>
+(XML Line 001756): Table should have title
+	<table id="_e1b12610-1f49-4afd-a839-13ec2e0881d7" width="90%">
+	<colgroup>
+	<col width="25%"/>
+	<col width="75%"/>
+	</colgroup>
+(XML Line 001803): Table should have title
+	<table id="_bc72a87a-e8e5-4d5e-9866-071732de7d14" width="90%">
+	<colgroup>
+	<col width="25%"/>
+	<col width="75%"/>
+	</colgroup>
+(XML Line 001827): Table should have title
+	<table id="_3c0d6799-0fe4-4c7d-9faf-9bfec1cd6818" width="90%">
+	<colgroup>
+	<col width="25%"/>
+	<col width="75%"/>
+	</colgroup>
+(XML Line 001841): Table should have title
+	<table id="_290fdfb4-8e51-4957-880b-6a757a777d21" width="90%">
+	<colgroup>
+	<col width="25%"/>
+	<col width="75%"/>
+	</colgroup>
+(XML Line 001855): Table should have title
+	<table id="_1b59eeb5-98bd-433f-9467-60d4e7deb2d0" width="90%">
+	<colgroup>
+	<col width="25%"/>
+	<col width="75%"/>
+	</colgroup>
+(XML Line 001879): Table should have title
+	<table id="_a145297b-b5f1-4a4a-b68f-6d7fd322d38a" width="90%">
+	<colgroup>
+	<col width="25%"/>
+	<col width="75%"/>
+	</colgroup>
+(XML Line 001895): Table should have title
+	<table id="_b86e5d39-6924-49d0-846d-f049d7dfdfd8" width="90%">
+	<colgroup>
+	<col width="25%"/>
+	<col width="75%"/>
+	</colgroup>
+(XML Line 001910): Table should have title
+	<table id="_e8b1e83a-3fc5-4f55-95df-1b597590829a" width="90%">
+	<colgroup>
+	<col width="25%"/>
+	<col width="75%"/>
+	</colgroup>
+(XML Line 001926): Table should have title
+	<table id="_9aebde38-5b98-4eb6-9153-8799887be228" width="90%">
+	<colgroup>
+	<col width="25%"/>
+	<col width="75%"/>
+	</colgroup>
+(XML Line 001945): Table should have title
+	<table id="_716b78d0-3bd0-4812-b014-e1cc37ad2289" width="90%">
+	<colgroup>
+	<col width="25%"/>
+	<col width="75%"/>
+	</colgroup>
+(XML Line 002015): Hanging paragraph in clause
+	<clause id="_feature_2" obligation="normative"><title>Feature</title><clause id="_operation_7" obligation="normative"><title>Operation</title><table id="_63042d2c-3b0c-448b-b974-72a70c840f11" width="90%">
+	<colgroup>
+	<col width="25%"/>
+	<col width="75%"/>
+	</colgroup>
+(XML Line 002015): Table should have title
+	<table id="_63042d2c-3b0c-448b-b974-72a70c840f11" width="90%">
+	<colgroup>
+	<col width="25%"/>
+	<col width="75%"/>
+	</colgroup>
+(XML Line 002035): Table should have title
+	<table id="_4933f321-b6d2-446b-981b-3292fb0c6f59" width="90%">
+	<colgroup>
+	<col width="25%"/>
+	<col width="75%"/>
+	</colgroup>
+(XML Line 002055): Table should have title
+	<table id="_f103a16e-47d6-47b9-afc1-b7c4ecd7d4c4" width="90%">
+	<colgroup>
+	<col width="25%"/>
+	<col width="75%"/>
+	</colgroup>
+(XML Line 002071): Table should have title
+	<table id="_54e07fb6-af9f-4417-8fe1-89714755acb4" width="90%">
+	<colgroup>
+	<col width="25%"/>
+	<col width="75%"/>
+	</colgroup>
+(XML Line 002110): Hanging paragraph in clause
+	<clause id="_requirements_classes_for_encodings" obligation="normative"><title>Requirements classes for encodings</title><clause id="_overview" obligation="normative"><title>Overview</title><p id="_e962959e-810a-4837-b70b-def4a6dcd64a">This clause specifies four pre-defined requirements classes for encodings to be
+	used by a WFS implementation. These encodings are commonly used encodings for spatial data on
+	the web:</p>
+	<ul id="_618b72f7-0e15-4c82-a73c-c01e4e488c8c">
+	<li>
+(XML Line 002160): Table should have title
+	<table id="rc_html" width="90%">
+	<colgroup>
+	<col width="20%"/>
+	<col width="80%"/>
+	</colgroup>
+(XML Line 002200): Table should have title
+	<table id="_5ba2c2f2-b119-4281-9747-1225867d1048" width="90%">
+	<colgroup>
+	<col width="25%"/>
+	<col width="75%"/>
+	</colgroup>
+(XML Line 002216): Table should have title
+	<table id="_a80b126d-0150-4b06-82ab-640f4b3e5152" width="90%">
+	<colgroup>
+	<col width="25%"/>
+	<col width="75%"/>
+	</colgroup>
+(XML Line 002243): Table should have title
+	<table id="_74fa2c3f-6350-445c-88fc-3b657dae6f45" width="90%">
+	<colgroup>
+	<col width="25%"/>
+	<col width="75%"/>
+	</colgroup>
+(XML Line 002261): Table should have title
+	<table id="rc_geojson" width="90%">
+	<colgroup>
+	<col width="20%"/>
+	<col width="80%"/>
+	</colgroup>
+(XML Line 002295): Table should have title
+	<table id="_c4f6f996-7a93-433b-8bde-f4278c4c66bf" width="90%">
+	<colgroup>
+	<col width="25%"/>
+	<col width="75%"/>
+	</colgroup>
+(XML Line 002318): Table should have title
+	<table id="_12d38d56-c8fa-4c3b-a42c-0b9cd2510dfc" width="90%">
+	<colgroup>
+	<col width="25%"/>
+	<col width="75%"/>
+	</colgroup>
+(XML Line 002441): Table should have title
+	<table id="rc_gmlsf0" width="90%">
+	<colgroup>
+	<col width="20%"/>
+	<col width="80%"/>
+	</colgroup>
+(XML Line 002475): Table should have title
+	<table id="_62770a75-d96a-4509-9264-0eaaf555b954" width="90%">
+	<colgroup>
+	<col width="25%"/>
+	<col width="75%"/>
+	</colgroup>
+(XML Line 002498): Table should have title
+	<table id="req_gmlsf0_content" width="90%">
+	<colgroup>
+	<col width="25%"/>
+	<col width="75%"/>
+	</colgroup>
+(XML Line 002617): Table should have title
+	<table id="rc_gmlsf2" width="90%">
+	<colgroup>
+	<col width="20%"/>
+	<col width="80%"/>
+	</colgroup>
+(XML Line 002651): Table should have title
+	<table id="_43430793-33c4-4a73-9ba9-df33215dfd56" width="90%">
+	<colgroup>
+	<col width="25%"/>
+	<col width="75%"/>
+	</colgroup>
+(XML Line 002674): Table should have title
+	<table id="_c76f76f1-eb5c-4887-b792-d02283d3ae34" width="90%">
+	<colgroup>
+	<col width="25%"/>
+	<col width="75%"/>
+	</colgroup>
+(XML Line 002699): Hanging paragraph in clause
+	<clause id="_requirements_class_openapi_3_0" obligation="normative"><title>Requirements class “OpenAPI 3.0”</title><clause id="_basic_requirements" obligation="normative"><title>Basic requirements</title><p id="_d660c48f-32e0-40b6-9dde-d39c727ccec6">Servers conforming to this requirements class define their API by an <link target="https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.0.md#oasDocument">OpenAPI Document</link>.</p>
+	<table id="rc_oas30" width="90%">
+	<colgroup>
+	<col width="20%"/>
+	<col width="80%"/>
+(XML Line 002700): Table should have title
+	<table id="rc_oas30" width="90%">
+	<colgroup>
+	<col width="20%"/>
+	<col width="80%"/>
+	</colgroup>
+(XML Line 002734): Table should have title
+	<table id="_6528791b-4edc-4bca-87ef-5b47e0fb7bbe" width="90%">
+	<colgroup>
+	<col width="25%"/>
+	<col width="75%"/>
+	</colgroup>
+(XML Line 002755): Table should have title
+	<table id="_b3041201-a477-4e3c-94ea-670278dcd1d1" width="90%">
+	<colgroup>
+	<col width="25%"/>
+	<col width="75%"/>
+	</colgroup>
+(XML Line 002778): Table should have title
+	<table id="_3b207045-782b-4a70-9f92-e616b6102e64" width="90%">
+	<colgroup>
+	<col width="25%"/>
+	<col width="75%"/>
+	</colgroup>
+(XML Line 002800): Table should have title
+	<table id="_3035e546-38b7-41b0-978b-f4bcd4dc91d3" width="90%">
+	<colgroup>
+	<col width="25%"/>
+	<col width="75%"/>
+	</colgroup>
+(XML Line 002829): Table should have title
+	<table id="_c9afb6cd-8668-4733-a388-1428052d0575" width="90%">
+	<colgroup>
+	<col width="25%"/>
+	<col width="75%"/>
+	</colgroup>
+(XML Line 002858): Table should have title
+	<table id="_70f15573-fed6-4f50-90cd-23dbc53ba1cc" width="90%">
+	<colgroup>
+	<col width="25%"/>
+	<col width="75%"/>
+	</colgroup>
+(XML Line 002895): Table should have title
+	<table id="_d23ac00a-05ad-44ca-b0b6-4bdac54bbdb9" width="90%">
+	<colgroup>
+	<col width="25%"/>
+	<col width="75%"/>
+	</colgroup>
+(XML Line 002945): Hanging paragraph in clause
+	<annex id="annex-a" obligation="normative"><title>Abstract Test Suite</title><admonition id="_66829db7-3b1a-4182-9d93-622270d24bd0" type="caution">
+	<p id="_e8d4ad2a-8e21-4585-b075-1f3ccb5d9cb4"><link target="https://github.com/opengeospatial/WFS_FES/issues/112">ISSUE 112</link><br/>
+	The Abstract Test Suite is work-in-progress. Currently, only a draft for the
+	Core conformance class is available. The other five conformance classes (HTML,
+	GeoJSON, GML-SF0, GML-SF2, OpenAPI 3.0) are not yet covered.</p>
+(XML Line 002964): Hanging paragraph in clause
+	<clause id="_conventions_2" obligation="normative"><title>Conventions</title><p id="_dca6da03-f811-45ca-a495-ff77b8c650d5">The following conventions apply to this Abstract Test Suite:</p>
+	<clause id="_path_templates" obligation="normative"><title>Path Templates</title><p id="_a3c9c6f0-a5fc-4bd7-aa5c-c4d6a819299a">Path templates are used throughout these test suites.  Path templating refers to the usage of curly braces “{}” to mark a section of a URL path that can be replaced using path parameters.  The terms used to describe portions of these templates are based on the URL syntax described in <eref type="inline" bibitemid="rfc3986" citeas="IETF RFC 3986"/>.</p>
+	<ul id="_ec98444d-4026-4d74-8c7c-18cccfa23168">
+	<li>
+	<p id="_75afcbf4-bb03-4c93-bbaa-54cd498e896c">scheme: http | https</p>
+(XML Line 003045): Table should have title
+	<table id="_752b606e-0cfd-4a73-bd63-889eafc896a7" width="100%">
+	<tbody>
+	<tr>
+	<td valign="top" align="left"><strong>Requirement 1:</strong> API Landing Page Operation<br/>
+	  The server SHALL support the HTTP GET operation at the path /.<br/>
+(XML Line 003238): Hanging paragraph in clause
+	<clause id="_abstract_test" obligation="normative"><title>Abstract Test</title><p id="_b4444b9c-7ae1-4eb3-b826-52a6bb45173a">The Test Approach used in the WFS 3.0 Abstract Test Suite includes four steps:</p>
+	<ol id="_2abab46a-e2ea-4b97-9fa5-3302108de841" type="arabic">
+	<li>
+	<p id="_46c4004f-f981-4217-9168-61109414ddee">Identify the test points</p>
+	</li>
+(XML Line 003255): Hanging paragraph in clause
+	<clause id="_general_tests" obligation="normative"><title>General Tests</title><clause id="_http_1_1_2" obligation="normative"><title>HTTP 1.1</title><clause id="_a_test_purpose" obligation="normative">
+	<title>a) Test Purpose:</title>
+	<p id="_6e00bcf5-c23b-4fd0-9621-68a0547c50a7">Validate that the WFS services advertised through the API conform with HTTP 1.1.</p>
+	</clause>
+	<clause id="_b_pre_conditions" obligation="normative">
+(XML Line 003255): Hanging paragraph in clause
+	<clause id="_http_1_1_2" obligation="normative"><title>HTTP 1.1</title><clause id="_a_test_purpose" obligation="normative">
+	<title>a) Test Purpose:</title>
+	<p id="_6e00bcf5-c23b-4fd0-9621-68a0547c50a7">Validate that the WFS services advertised through the API conform with HTTP 1.1.</p>
+	</clause>
+	<clause id="_b_pre_conditions" obligation="normative">
+(XML Line 003278): Hanging paragraph in clause
+	<clause id="_coordinate_reference_systems_2" obligation="normative"><title>Coordinate Reference Systems</title><clause id="_a_test_purpose_2" obligation="normative">
+	<title>a) Test Purpose:</title>
+	<p id="_d028659e-edd8-4595-804b-2554c54c00fd">Validate that all spatial geometries provided through a WFS service are in the CRS84 spatial reference system unless otherwise requested by the client.</p>
+	</clause>
+	<clause id="_b_pre_conditions_2" obligation="normative">
+(XML Line 003301): Hanging paragraph in clause
+	<clause id="retrieveapidescription" obligation="normative"><title>Retrieve the API Description</title><clause id="_landing_page_retrieval" obligation="normative"><title>Landing Page Retrieval</title><clause id="_a_test_purpose_3" obligation="normative">
+	<title>a) Test Purpose:</title>
+	<p id="_4be9b98b-5952-4452-8cc5-0a93529a16c8">Validate that a landing page can be retrieved from the expected location.</p>
+	</clause>
+	<clause id="_b_pre_conditions_3" obligation="normative">
+(XML Line 003301): Hanging paragraph in clause
+	<clause id="_landing_page_retrieval" obligation="normative"><title>Landing Page Retrieval</title><clause id="_a_test_purpose_3" obligation="normative">
+	<title>a) Test Purpose:</title>
+	<p id="_4be9b98b-5952-4452-8cc5-0a93529a16c8">Validate that a landing page can be retrieved from the expected location.</p>
+	</clause>
+	<clause id="_b_pre_conditions_3" obligation="normative">
+(XML Line 003337): Hanging paragraph in clause
+	<clause id="landingpagevalidation" obligation="normative"><title>Landing Page Validation</title><clause id="_a_test_purpose_4" obligation="normative">
+	<title>a) Test Purpose:</title>
+	<p id="_f93615dd-5b28-45ba-99d7-e31c908fabf0">Validate that the landing page complies with the require structure and contents.</p>
+	</clause>
+	<clause id="_b_pre_conditions_4" obligation="normative">
+(XML Line 003370): Hanging paragraph in clause
+	<clause id="_openapi_document_retrieval" obligation="normative"><title>OpenAPI Document Retrieval</title><p id="_81cfe429-ee81-42b7-bcae-b336e84fba53">Note: The URI for the API definition is provided through the landing page.  However, that does not mean that the API definition resides on the same server as the landing page.  Test clients should be prepared for a WFS 3.0 implementation which is distributed across multiple servers.</p>
+	<clause id="_a_test_purpose_5" obligation="normative">
+	<title>a) Test Purpose:</title>
+	<p id="_a825b790-5a9f-4c3f-b2c4-71bd2bd8819c">Validate that the API Definition document can be retrieved from the expected location.</p>
+	</clause>
+(XML Line 003407): Hanging paragraph in clause
+	<clause id="apidefinitionvalidation" obligation="normative"><title>API Definition Validation</title><clause id="_a_test_purpose_6" obligation="normative">
+	<title>a) Test Purpose:</title>
+	<p id="_3ab2e7bc-a412-4a9b-b7e1-ee0c8ef21b7c">Validate that the API Definition page complies with the require structure and contents.</p>
+	</clause>
+	<clause id="_b_pre_conditions_6" obligation="normative">
+(XML Line 003437): Hanging paragraph in clause
+	<clause id="identifytestpoints" obligation="normative"><title>Identify the Test Points</title><p id="_c6325218-10ec-4465-8f74-9a1ba9e58033">Identification of the test points is a pre-condition to performing a compliance test.  This process starts with <xref target="identifytestpoints1"/>.</p>
+	<clause id="identifytestpoints1" obligation="normative"><title>Identify Test Points:</title><clause id="_a_purpose" obligation="normative">
+	<title>a) Purpose:</title>
+	<p id="_f0135a33-f1d7-47dd-9d92-0c88b3c2cd8c">To identify the test points associated with each Path in the OpenAPI document</p>
+	</clause>
+(XML Line 003438): Hanging paragraph in clause
+	<clause id="identifytestpoints1" obligation="normative"><title>Identify Test Points:</title><clause id="_a_purpose" obligation="normative">
+	<title>a) Purpose:</title>
+	<p id="_f0135a33-f1d7-47dd-9d92-0c88b3c2cd8c">To identify the test points associated with each Path in the OpenAPI document</p>
+	</clause>
+	<clause id="_b_pre_conditions_7" obligation="normative">
+(XML Line 003469): Hanging paragraph in clause
+	<clause id="identifyserveruris" obligation="normative"><title>Identify Server URIs:</title><clause id="_a_purpose_2" obligation="normative">
+	<title>a) Purpose:</title>
+	<p id="_cedfebc9-9d06-42c5-9483-1a2052d4b4c7">To identify all server URIs applicable to an OpenAPI Operation Object</p>
+	</clause>
+	<clause id="_b_pre_conditions_8" obligation="normative">
+(XML Line 003517): Hanging paragraph in clause
+	<clause id="processserverobject" obligation="normative"><title>Process Server Object:</title><clause id="_a_purpose_3" obligation="normative">
+	<title>a) Purpose:</title>
+	<p id="_18374da8-7e6e-4394-bb72-058bf24f718f">To expand the contents of a Server Object into a set of absolute URIs.</p>
+	</clause>
+	<clause id="_b_pre_conditions_9" obligation="normative">
+(XML Line 003570): Hanging paragraph in clause
+	<clause id="processingopenapidocument" obligation="normative"><title>Processing the OpenAPI Document</title><clause id="_validate_api_path" obligation="normative"><title>Validate /api path</title><clause id="_a_test_purpose_7" obligation="normative">
+	<title>a) Test Purpose:</title>
+	<p id="_32a778f7-4696-4e94-8703-4a1654558dfc">Validate the /api path</p>
+	</clause>
+	<clause id="_b_pre_conditions_10" obligation="normative">
+(XML Line 003570): Hanging paragraph in clause
+	<clause id="_validate_api_path" obligation="normative"><title>Validate /api path</title><clause id="_a_test_purpose_7" obligation="normative">
+	<title>a) Test Purpose:</title>
+	<p id="_32a778f7-4696-4e94-8703-4a1654558dfc">Validate the /api path</p>
+	</clause>
+	<clause id="_b_pre_conditions_10" obligation="normative">
+(XML Line 003605): Hanging paragraph in clause
+	<clause id="_validate_conformance_operation" obligation="normative"><title>Validate Conformance Operation</title><clause id="_a_test_purpose_8" obligation="normative">
+	<title>a) Test Purpose:</title>
+	<p id="_18f5e3f8-a07a-4090-8695-1bcdb1a69883">Validate that Conformance Operation behaves as required.</p>
+	</clause>
+	<clause id="_b_pre_conditions_11" obligation="normative">
+(XML Line 003630): Hanging paragraph in clause
+	<clause id="_validate_conformance_operation_response" obligation="normative"><title>Validate Conformance Operation Response</title><clause id="_a_test_purpose_9" obligation="normative">
+	<title>a) Test Purpose:</title>
+	<p id="_a092dc15-4a9b-498a-9c71-e346ba9adcf8">Validate the Response to the Conformance Operation.</p>
+	</clause>
+	<clause id="_b_pre_conditions_12" obligation="normative">
+(XML Line 003660): Hanging paragraph in clause
+	<clause id="_validate_the_feature_collections_metadata_operation" obligation="normative"><title>Validate the Feature Collections Metadata Operation</title><clause id="_a_test_purpose_10" obligation="normative">
+	<title>a) Test Purpose:</title>
+	<p id="_68909cc5-65b7-4fc3-813b-8818dea423e3">Validate that the Feature Collections Metadata Operation behaves as required</p>
+	</clause>
+	<clause id="_b_pre_conditions_13" obligation="normative">
+(XML Line 003686): Hanging paragraph in clause
+	<clause id="_validate_the_feature_collections_metadata_operation_response" obligation="normative"><title>Validate the Feature Collections Metadata Operation Response</title><clause id="_a_test_purpose_11" obligation="normative">
+	<title>a) Test Purpose:</title>
+	<p id="_48b994c0-aa17-47d5-a694-247cbebc2265">Validate that response to the Feature Collection Metadata Operation.</p>
+	</clause>
+	<clause id="_b_pre_conditions_14" obligation="normative">
+(XML Line 003731): Hanging paragraph in clause
+	<clause id="_validate_a_collections_metadata_document" obligation="normative"><title>Validate a Collections Metadata document</title><clause id="_a_test_purpose_12" obligation="normative">
+	<title>a) Test Purpose:</title>
+	<p id="_59f9d4a2-92ed-4dc0-9f14-a65c2f66e500">Validate a Collections Metadata document.</p>
+	</clause>
+	<clause id="_b_pre_conditions_15" obligation="normative">
+(XML Line 003775): Hanging paragraph in clause
+	<clause id="_validate_the_feature_collection_metadata_operation" obligation="normative"><title>Validate the Feature Collection Metadata Operation</title><clause id="_a_test_purpose_13" obligation="normative">
+	<title>a) Test Purpose:</title>
+	<p id="_7df6f93c-0d7b-4546-bc03-4deaaf251c73">Validate that the Feature Collection Metadata Operation behaves as required</p>
+	</clause>
+	<clause id="_b_pre_conditions_16" obligation="normative">
+(XML Line 003803): Hanging paragraph in clause
+	<clause id="_validate_the_feature_collection_metadata_operation_response" obligation="normative"><title>Validate the Feature Collection Metadata Operation Response</title><clause id="_a_test_purpose_14" obligation="normative">
+	<title>a) Test Purpose:</title>
+	<p id="_9e8d8243-d253-49fd-9b1d-0fda2ed22663">Validate that response to the Feature Collection Metadata Operation.</p>
+	</clause>
+	<clause id="_b_pre_conditions_17" obligation="normative">
+(XML Line 003831): Hanging paragraph in clause
+	<clause id="_validate_the_get_features_operation" obligation="normative"><title>Validate the Get Features Operation</title><clause id="_a_test_purpose_15" obligation="normative">
+	<title>a) Test Purpose:</title>
+	<p id="_e0517682-c5e7-4bf0-8f41-86dfaf3d2f19">Validate that the Get Features Operation behaves as required.</p>
+	</clause>
+	<clause id="_b_pre_conditions_18" obligation="normative">
+(XML Line 003859): Hanging paragraph in clause
+	<clause id="_validate_the_get_features_operation_response" obligation="normative"><title>Validate the Get Features Operation Response</title><clause id="_a_test_purpose_16" obligation="normative">
+	<title>a) Test Purpose:</title>
+	<p id="_1fbaef67-bb0d-4651-a2ab-b16a114204c6">Validate the Get Feature Operation Response.</p>
+	</clause>
+	<clause id="_b_pre_conditions_19" obligation="normative">
+(XML Line 003917): Hanging paragraph in clause
+	<clause id="_limit_parameter" obligation="normative"><title>Limit Parameter</title><clause id="_a_test_purpose_17" obligation="normative">
+	<title>a) Test Purpose:</title>
+	<p id="_6fac92da-4c17-4b10-ae63-dd2a6ca38652">Validate the proper handling of the limit parameter.</p>
+	</clause>
+	<clause id="_b_pre_conditions_20" obligation="normative">
+(XML Line 003947): Hanging paragraph in clause
+	<clause id="_bounding_box_parameter" obligation="normative"><title>Bounding Box Parameter</title><clause id="_a_test_purpose_18" obligation="normative">
+	<title>a) Test Purpose:</title>
+	<p id="_39ff9df0-1d0b-40f8-870e-1852a4bb0e32">Validate the proper handling of the bbox parameter.</p>
+	</clause>
+	<clause id="_b_pre_conditions_21" obligation="normative">
+(XML Line 003977): Hanging paragraph in clause
+	<clause id="_time_parameter" obligation="normative"><title>Time Parameter</title><clause id="_a_test_purpose_19" obligation="normative">
+	<title>a) Test Purpose:</title>
+	<p id="_ce333f0a-b530-4ae3-98b1-a43f0af00df5">Validate the proper handling of the time parameter.</p>
+	</clause>
+	<clause id="_b_pre_conditions_22" obligation="normative">
+(XML Line 004008): Hanging paragraph in clause
+	<clause id="_get_feature_operation" obligation="normative"><title>Get Feature Operation</title><clause id="_a_test_purpose_20" obligation="normative">
+	<title>a) Test Purpose:</title>
+	<p id="_5bddaba1-e0c8-4fd3-9e3a-e6d8c70f85bd">Validate that the Get Feature Operation behaves as required.</p>
+	</clause>
+	<clause id="_b_pre_conditions_23" obligation="normative">
+(XML Line 004039): Hanging paragraph in clause
+	<clause id="_validate_the_get_feature_operation_response" obligation="normative"><title>Validate the Get Feature Operation Response</title><clause id="_a_test_purpose_21" obligation="normative">
+	<title>a) Test Purpose:</title>
+	<p id="_6f57ab55-4459-4d6b-9b90-4e7428d575ea">Validate the Get Feature Operation Response.</p>
+	</clause>
+	<clause id="_b_pre_conditions_24" obligation="normative">
+(XML Line 004086): Hanging paragraph in clause
+	<annex id="oas30_example" obligation="informative"><title>OpenAPI definition example</title><clause id="_overview_3" obligation="informative"><title>Overview</title><p id="_5386a042-0459-4b8a-9577-96adc150c980">This annex includes two complete examples of an OpenAPI definition for a WFS.</p>
+	<p id="_4b533bd5-467e-4f93-8d40-89a86388db2b">The first example (<xref target="openapi.yaml"/>) is a generic example that uses path parameters to describe all
+	feature collections and all features. This OpenAPI definition does not provide
+	any details on the collections or the feature content. This information is only
+	available from the feature collection metadata.</p>
+(XML Line 005258): Hanging paragraph in clause
+	<annex id="xml_examples" obligation="informative"><title>XML examples</title><clause id="_overview_4" obligation="informative">
+	<title>Overview</title>
+	<p id="_3913117e-0ee0-4812-ad1b-7d27f2cee1fb">This annex includes examples of XML/GML responses to illustrate how the
+	OpenAPI fragments used to define the requirements for the
+	<xref target="rc_core">Core requirements class</xref> are expressed in XML using the
+(XML Line 005598): Table should have title
+	<table id="_ea6bbda0-7664-42ee-9a18-4b8288bca018">
+	<colgroup>
+	<col width="12%"/>
+	<col width="18%"/>
+	<col width="12%"/>
+
+
+== Metanorma XML Syntax
+
+(XML Line 000082:34): multiple definitions of "DocumentSubtype" without "combine" attribute

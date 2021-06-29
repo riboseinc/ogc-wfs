@@ -1,0 +1,199 @@
+<relaton-collection xmlns="https://open.ribose.com/relaton-xml"><relation type='partOf'><bibdata type="standard">
+  <title format="text/plain" language="en">OGC Web Feature Service 3.0: Part 1 - Core</title>
+  <uri type="xml">documents/core/standard/17-069.xml</uri>
+  <uri type="pdf">documents/core/standard/17-069.pdf</uri>
+  <uri type="doc">documents/core/standard/17-069.doc</uri>
+  <uri type="html">documents/core/standard/17-069.html</uri>
+  <uri type="rxl">documents/core/standard/17-069.rxl</uri>
+  <docidentifier type="ogc-external">http://www.opengis.net/doc/IS/wfs-1/3.0</docidentifier>
+  <docidentifier type="ogc-internal">17-069</docidentifier>
+  <docnumber>17-069</docnumber>
+  <date type="published">
+    <on>1000-01-01</on>
+  </date>
+  <date type="issued">
+    <on>1000-01-01</on>
+  </date>
+  <date type="received">
+    <on>1000-01-01</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <organization>
+      <name>CubeWerx Inc.</name>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <organization>
+      <name>Hexagon</name>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <organization>
+      <name>interactive instruments GmbH</name>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <organization>
+      <name>Planet Labs</name>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="editor"/>
+    <person>
+      <name>
+        <completename>Clemens Portele</completename>
+      </name>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="editor"/>
+    <person>
+      <name>
+        <completename>Panagiotis (Peter) A. Vretanos</completename>
+      </name>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>Open Geospatial Consortium</name>
+    </organization>
+  </contributor>
+  <version>
+    <revision-date>2018-04-07</revision-date>
+    <draft>3.0.0-draft.1</draft>
+  </version>
+  <language>en</language>
+  <script>Latn</script>
+  <abstract>A Web Feature Service (WFS) offers the capability to create, modify and query spatial data on the Web. The WFS standard is a multi-part document. This part specifies the core capabilities that every WFS has to support and is restricted to read-access to spatial data. Additional capabilities that address specific needs will be specified in additional parts. Examples include support for creating and modifying data, more complex data models, richer queries, and additional coordinate reference systems.
+By default, every WFS instance provides access to a single dataset. Rather than sharing the data as a complete dataset, WFS offers direct, fine-grained access to the data at the feature (object) level.
+Consistent with the architecture of the Web, this version of the WFS standard uses a resource architecture and specifies a RESTful service interface consistent with the IETF HTTP/HTTPS RFCs.
+This standard specifies discovery and query operations that are implemented using the HTTP GET method. Support for additional methods (in particular POST, PUT, DELETE, PATCH) will be specified in additional parts.
+Discovery operations allow the server to be interrogated to determine its capabilities and retrieve information (metadata) about this distribution of the dataset. This includes the API definition of the server as well as metadata about the feature collections provided by the server.
+Query operations allow features or values of feature properties to be retrieved from the underlying data store based upon selection criteria, defined by the client, on feature properties.
+This standard defines the resources listed in . For an overview of the resources, see section 7.1 Overview.
+
+
+
+
+
+
+
+Overview of resources, applicable HTTP methods and links to the document sections
+
+
+Resource
+Path
+HTTP method
+Document reference
+
+
+
+
+Landing page
+
+/
+
+GET
+
+7.2 API landing page
+
+
+
+API definition
+
+/api
+
+GET
+
+7.3 API definition
+
+
+
+Conformance classes
+
+/conformance
+
+GET
+
+7.4 Declaration of conformance classes
+
+
+
+Feature collections metadata
+
+/collections
+
+GET
+
+7.11 Feature collections metadata
+
+
+
+Feature collection metadata
+
+/collections/{name}
+
+GET
+
+7.12 Feature collection metadata
+
+
+
+Feature collection
+
+/collections/{name}/items
+
+GET
+
+7.13 Feature collections
+
+
+
+Feature
+
+/collections/{name}/items/{fid}
+
+GET
+
+7.14 Feature
+
+
+
+</abstract>
+  <status>
+    <stage>candidate</stage>
+  </status>
+  <copyright>
+    <from>2021</from>
+    <owner>
+      <organization>
+        <name>Open Geospatial Consortium</name>
+      </organization>
+    </owner>
+  </copyright>
+  <keyword>ogcdoc</keyword>
+  <keyword>OGC document</keyword>
+  <keyword>web feature service</keyword>
+  <keyword>wfs</keyword>
+  <keyword>feature</keyword>
+  <keyword>property</keyword>
+  <keyword>geographic information</keyword>
+  <keyword>spatial data</keyword>
+  <keyword>spatial things</keyword>
+  <keyword>dataset</keyword>
+  <keyword>distribution</keyword>
+  <keyword>API</keyword>
+  <keyword>openapi</keyword>
+  <keyword>geojson</keyword>
+  <keyword>gml</keyword>
+  <keyword>html</keyword>
+  <ext>
+    <doctype>standard</doctype>
+  </ext>
+</bibdata></relation>
+</relaton-collection>
